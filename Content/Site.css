@@ -1,0 +1,69 @@
+﻿/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+textarea.form-control {
+    height: 100%;
+    padding: 5px;
+}
+.form-control {
+    background-color: #f3e8e8 !important;
+    border: none !important;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+caption {
+    background-color:#000000;
+    color: #CCECFF;
+    padding: 5px;
+    font-size:large;
+}
+tr:nth-child(odd) {
+    background-color: #e0d0d0;
+    font-weight: 700;
+}
+
+tr:nth-child(even) {
+    background-color: #faf5f5;
+}
+td, th {
+    border: 7px solid #ccb3b3;
+    padding: 10px;
+}
+
+p
+{
+    color: green;
+}
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+
+    .body-content {
+        padding: 0;
+    }
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+    background-color: #777;
+    border-color: #fff
+}
